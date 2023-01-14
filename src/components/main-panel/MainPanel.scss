@@ -1,0 +1,12 @@
+.kyro-main-panel {
+    background-color: #ffffff;
+    box-shadow: 1px 0px 10px -9px black inset;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    &__main {
+        display: flex;
+        height: 90%;
+    }
+
+}

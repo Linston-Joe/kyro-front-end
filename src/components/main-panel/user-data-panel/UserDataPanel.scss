@@ -1,0 +1,50 @@
+.kyro-user-data-panel {
+    position: relative;
+    width: 70%;
+
+    .kyro-user-profile-header {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5%;
+        left: 2rem;
+        position: absolute;
+    }
+
+    .kyro-user-data-card {
+        border-radius: 10px;
+        box-shadow: 0px 15px 40px -20px black;
+        position: absolute;
+        height: 90%;
+        width: 85%;
+        top: 3rem;
+        left: 1.5rem;
+
+        .kyro-user-content {
+            display: flex;
+            margin: 5% 5% 0 5%;
+            justify-content: space-between;
+        }
+
+        .kyro-user-footer {
+            position: absolute;
+            left: 25%;
+            bottom: 5%;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+
+            .kyro-user-save-btn , .kyro-user-reset-btn {
+                background-color: #cc0f0f;
+                color: white;
+                font-size: small;
+            
+                &:hover {
+                    border: 1px solid #cc0f0f;
+                    background-color: white;
+                    color: #cc0f0f;
+                }
+            }
+        }
+    }
+
+}

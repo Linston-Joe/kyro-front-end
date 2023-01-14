@@ -1,0 +1,50 @@
+.kyro-header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    height: 10%;
+
+    .kyro-greetings-msg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        margin-left: 1.5rem;
+    }
+
+    .kyro-profile-controls {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30%;
+
+        &__add-btn {
+            background-color: #cc0f0f;
+            color: white;
+            font-size: small;
+        
+            &:hover {
+                border: 1px solid #cc0f0f;
+                background-color: white;
+                color: #cc0f0f;
+            }
+        }
+
+        &__photo {
+            background-color: rgb(102, 100, 97);
+            border-radius: 15%;
+            height: 60%;
+        }
+
+        &__profile-descr {
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            .kyro-profile-role {
+                font-size: 10px;
+            }
+        }
+    }
+}
